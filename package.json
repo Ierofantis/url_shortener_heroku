@@ -1,0 +1,17 @@
+{
+  "name": "shortener",
+  "version": "1.0.0",
+  "description": "Url Shortener",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Theodore P.",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "mongodb": "^2.1.21",
+    "mongoose": "^4.4.19"
+  }
+}
