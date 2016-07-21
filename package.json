@@ -13,5 +13,8 @@
     "express": "^4.13.4",
     "mongodb": "^2.1.21",
     "mongoose": "^4.4.19"
+  },
+  "engines": {
+    "node": "4.4.7"
   }
 }
