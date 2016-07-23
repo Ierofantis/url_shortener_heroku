@@ -7,7 +7,7 @@ var base58 = require('./base58.js');
 // grab the url model
 var Url = require('./models/url');
 
-var MONGOLAB_URI='mongodb://ha:123@ds043971.mlab.com:43971/url_shortener';
+//var MONGOLAB_URI='';
 mongoose.connect(MONGOLAB_URI, function (error){
    
    if (error) console.error(error);
