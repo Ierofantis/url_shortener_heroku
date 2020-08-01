@@ -68,7 +68,6 @@ app.get('/:encoded_id', function (req, res) {
     }
   });
 });
+const port = process.env.PORT || 3000;
 
-var server = app.listen(process.env.PORT || 8080, function () {
-  console.log('Server listening on port 8080');
-});
+app.listen(port, () => console.log(`Server running on port ${port}`));
