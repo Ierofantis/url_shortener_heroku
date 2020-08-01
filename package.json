@@ -18,5 +18,14 @@
   },
   "engines": {
     "node": "4.4.7"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ierofantis/url_shortener_heroku.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ierofantis/url_shortener_heroku/issues"
+  },
+  "homepage": "https://github.com/Ierofantis/url_shortener_heroku#readme"
 }
