@@ -8,7 +8,7 @@ var base58 = require('./base58.js');
 // grab the url model
 var Url = require('./models/url');
 
-mongoose.connect(`mongodb://${process.env.USER}:${process.env.PASSWORD}@ds043971.mlab.com:43971/url_shortener`, function (error) {
+mongoose.connect(`mongodb://${process.env.USER}:${process.env.PASSWORD}@ds043971.mlab.com:43971/url_shortener`, { useMongoClient: true }, function (error) {
 
   if (error) console.error(error);
   else console.log("mongo connected")
