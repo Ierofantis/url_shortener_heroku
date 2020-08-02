@@ -16,9 +16,6 @@
     "mongodb": "^2.1.21",
     "mongoose": "^4.4.19"
   },
-  "engines": {
-    "node": "4.4.7"
-  },
   "devDependencies": {},
   "repository": {
     "type": "git",
